@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Logistic.DAL.Entities.Car" Collapsed="true">
+    <Position X="15.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICAAAAAAAAAAAAAAAAAAAAAQAAAAAAAACABAAAIAQ=</HashCode>
+      <FileName>Entities\Car.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Entities.Cargo" Collapsed="true">
+    <Position X="17.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAACAAAAAAAAIAAAAAAAQ=</HashCode>
+      <FileName>Entities\Cargo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Entities.Driver" Collapsed="true">
+    <Position X="19.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAEAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAw=</HashCode>
+      <FileName>Entities\Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Entities.Organization" Collapsed="true">
+    <Position X="15.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Entities\Organization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Entities.Point" Collapsed="true">
+    <Position X="17.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAIAA=</HashCode>
+      <FileName>Entities\Point.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Entities.Rate" Collapsed="true">
+    <Position X="19.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAIAAAAAgAAAAAAAAAQAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Entities\Rate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Entities.Route" Collapsed="true">
+    <Position X="15.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAQAAAAAAAgAQBQAAAAAAAAAAAAAAAAAw=</HashCode>
+      <FileName>Entities\Route.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Entities.Transportation" Collapsed="true">
+    <Position X="17.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAABAQAABAAAEAAEACAAQAAgAABAAAIAAAAAAA=</HashCode>
+      <FileName>Entities\Transportation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Attributes.Validation.NotEqualAttribute" Collapsed="true">
+    <Position X="26.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAoAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Attributes\Validation\NotEqualAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Migrations.Initial" Collapsed="true">
+    <Position X="23.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20220915082410_Initial.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Migrations.AddedTransportationRateForeignKey" Collapsed="true">
+    <Position X="25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20220917131124_AddedTransportationRateForeignKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Migrations.ChangedCarMarkColumn" Collapsed="true">
+    <Position X="21.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20220917221754_ChangedCarMarkColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Migrations.AddedTransportationDateColumn" Collapsed="true">
+    <Position X="23.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20220918124157_AddedTransportationDateColumn.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Migrations.AddedIdentityTables" Collapsed="true">
+    <Position X="21.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAI=</HashCode>
+      <FileName>Migrations\20221122164921_AddedIdentityTables.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Migrations.LogisticContextModelSnapshot" Collapsed="true">
+    <Position X="25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAA=</HashCode>
+      <FileName>Migrations\LogisticContextModelSnapshot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Logistic.DAL.Repositories.Abstractions.BaseRepository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="21.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAaAAAAAAigEIAAAAAAAAIAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Abstractions\BaseRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Logistic.DAL.Repositories.Implementations.CargoRepository" Collapsed="true">
+    <Position X="15.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Implementations\CargoRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Logistic.DAL.Repositories.Implementations.CarRepository" Collapsed="true">
+    <Position X="18.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Implementations\CarRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Logistic.DAL.Repositories.Implementations.DriverRepository" Collapsed="true">
+    <Position X="22.25" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Implementations\DriverRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Logistic.DAL.Repositories.Implementations.OrganizationRepository" Collapsed="true">
+    <Position X="25.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Implementations\OrganizationRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Logistic.DAL.Repositories.Implementations.PointRepository" Collapsed="true">
+    <Position X="27.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Implementations\PointRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Logistic.DAL.Repositories.Implementations.RateRepository" Collapsed="true">
+    <Position X="17" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Implementations\RateRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Logistic.DAL.Repositories.Implementations.RouteRepository" Collapsed="true">
+    <Position X="20.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Implementations\RouteRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Logistic.DAL.Repositories.Implementations.TransportationRepository" Collapsed="true">
+    <Position X="24" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Implementations\TransportationRepository.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="Logistic.DAL.Repositories.Abstractions.IBaseRepository&lt;TEntity&gt;" Collapsed="true">
+    <Position X="21.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAaAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Abstractions\IBaseRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Logistic.DAL.Repositories.Abstractions.ICargoRepository" Collapsed="true">
+    <Position X="18.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Abstractions\ICargoRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Logistic.DAL.Repositories.Abstractions.ICarRepository" Collapsed="true">
+    <Position X="22.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Abstractions\ICarRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Logistic.DAL.Repositories.Abstractions.IDriverRepository" Collapsed="true">
+    <Position X="25.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Abstractions\IDriverRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Logistic.DAL.Repositories.Abstractions.IOrganizationRepository" Collapsed="true">
+    <Position X="15.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Abstractions\IOrganizationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Logistic.DAL.Repositories.Abstractions.IPointRepository" Collapsed="true">
+    <Position X="17" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Abstractions\IPointRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Logistic.DAL.Repositories.Abstractions.IRateRepository" Collapsed="true">
+    <Position X="20.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Abstractions\IRateRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Logistic.DAL.Repositories.Abstractions.IRouteRepository" Collapsed="true">
+    <Position X="24" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Abstractions\IRouteRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Logistic.DAL.Repositories.Abstractions.ITransportationRepository" Collapsed="true">
+    <Position X="27.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\Abstractions\ITransportationRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -4,18 +4,18 @@ namespace Logistic.DAL.Attributes.Validation
 {
     public class NotEqualAttribute : ValidationAttribute
     {
-        private string OtherProperty { get; set; }
-        private string MainPropertyName { get; }
-        private string OtherPropertyName { get; }
+        private string OtherProperty { get; set; }//другое св-во
+        private string MainPropertyName { get; }//имя основного свойства
+        private string OtherPropertyName { get; }//другое основное свойства
 
-        public NotEqualAttribute(string otherProperty, string mainPropertyName, string otherPropertyName)
+        public NotEqualAttribute(string otherProperty, string mainPropertyName, string otherPropertyName)//Не равный атрибут
         {
             OtherProperty = otherProperty;
             MainPropertyName = mainPropertyName;
             OtherPropertyName = otherPropertyName;
         }
 
-        protected override ValidationResult IsValid(object value, ValidationContext validationContext)
+        protected override ValidationResult IsValid(object value, ValidationContext validationContext)//проверка
         {
             var otherPropertyInfo = validationContext.ObjectType.GetProperty(OtherProperty);
             var otherValue = otherPropertyInfo?.GetValue(validationContext.ObjectInstance);
