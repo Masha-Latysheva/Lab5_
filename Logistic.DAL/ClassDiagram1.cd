@@ -57,7 +57,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Logistic.DAL.Attributes.Validation.NotEqualAttribute" Collapsed="true">
-    <Position X="26.5" Y="4" Width="1.5" />
+    <Position X="19.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAACAAAAAoAAAAAAAAgAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Attributes\Validation\NotEqualAttribute.cs</FileName>
