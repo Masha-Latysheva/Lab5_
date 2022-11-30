@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Logistic.WebUI.Controllers.AccountController" Collapsed="true">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Controllers.BaseController&lt;TRepository, TEntity&gt;" Collapsed="true">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Controllers.CarController" Collapsed="true">
+    <Position X="3" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Controllers.DriverController" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Controllers.HomeController" Collapsed="true">
+    <Position X="9.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Controllers.OrganizationController" Collapsed="true">
+    <Position X="5.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Controllers.UsersController" Collapsed="true">
+    <Position X="8" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Infrastructure.FileLogger.FileLogger" Collapsed="true">
+    <Position X="5.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Infrastructure.FileLogger.FileLoggerExtensions" Collapsed="true">
+    <Position X="1.75" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Infrastructure.FileLogger.FileLoggerProvider" Collapsed="true">
+    <Position X="3.5" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Infrastructure.Filters.CacheResourceFilterAttribute" Collapsed="true">
+    <Position X="1.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Infrastructure.Filters.ExceptionFilterAttribute" Collapsed="true">
+    <Position X="3.5" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Infrastructure.Filters.SetToSessionAttribute" Collapsed="true">
+    <Position X="1.75" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Infrastructure.Filters.TimingLogAttribute" Collapsed="true">
+    <Position X="3.5" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Infrastructure.SessionExtensions" Collapsed="true">
+    <Position X="5.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Infrastructure.Transformations" Collapsed="true">
+    <Position X="5.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Middleware.DbCacheMiddleware" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Middleware.DbCacheMiddlewareExtensions" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Middleware.DbInitializerMiddleware" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Middleware.DbInitializerExtensions" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Models.Account.LoginModel" Collapsed="true">
+    <Position X="9" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Models.Users.ChangePasswordVM" Collapsed="true">
+    <Position X="7.25" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Models.Users.ChangeRoleVM" Collapsed="true">
+    <Position X="9" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Models.Users.CreateUserVM" Collapsed="true">
+    <Position X="10.75" Y="3" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Models.Users.EditUserVM" Collapsed="true">
+    <Position X="9" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Models.DashboardViewModel" Collapsed="true">
+    <Position X="7.25" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Models.ErrorViewModel" Collapsed="true">
+    <Position X="10.75" Y="4" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Logistic.WebUI.Models.GraphicViewModel" Collapsed="true">
+    <Position X="7.25" Y="5" Width="1.5" />
+    <TypeIdentifier />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
